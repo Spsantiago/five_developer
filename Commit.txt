@@ -1,3 +1,4 @@
-1. commit de santiago paredes.
+1. commit de Santiago Paredes.
 2. commit de Andres Mejia.
-.commit de julianasanchez.
+3. commit de Juliana Sanchez.
+4. commit de Daniel Gonzalez.
