@@ -3,23 +3,20 @@ package com.udea.ingresosygastos;
 
 
 public class empresa {
-
+    
     private String nombre;
     private String direccion;
     private String telefono;
     private String nit;
     
-    public empresa() {
-        
-    }
-
+       
     public empresa(String nombre, String direccion, String telefono, String nit) {
         this.nombre = nombre;
         this.direccion = direccion;
         this.telefono = telefono;
         this.nit = nit;
     }
-    
+
     public String getNombre() {
         return nombre;
     }
@@ -51,6 +48,8 @@ public class empresa {
     public void setNit(String nit) {
         this.nit = nit;
     }
+    
+    
     
     @Override
     public String toString() {
