@@ -9,16 +9,17 @@ public class empresa {
     private String telefono;
     private String nit;
     
-    public empresa(){
-
+    public empresa() {
+        
     }
 
-    public empresa(String nombre, String direccion, String telefono) {
+    public empresa(String nombre, String direccion, String telefono, String nit) {
         this.nombre = nombre;
         this.direccion = direccion;
         this.telefono = telefono;
+        this.nit = nit;
     }
-
+    
     public String getNombre() {
         return nombre;
     }
