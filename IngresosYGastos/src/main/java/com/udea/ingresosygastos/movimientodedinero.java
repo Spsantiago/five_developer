@@ -2,21 +2,21 @@ package com.udea.ingresosygastos;
 
 
 public class movimientodedinero {
-    private Long monto;
+    private long monto;
     private String concepto;
     private String usuario;
 
-    public movimientodedinero(Long monto, String concepto, String usuario) {
+    public movimientodedinero(long monto, String concepto, String usuario) {
         this.monto = monto;
         this.concepto = concepto;
         this.usuario = usuario;
     }
 
-    public Long getMonto() {
+    public long getMonto() {
         return monto;
     }
 
-    public void setMonto(Long monto) {
+    public void setMonto(long monto) {
         this.monto = monto;
     }
 
@@ -36,7 +36,6 @@ public class movimientodedinero {
         this.usuario = usuario;
     }
 
-     
     @Override
     public String toString() {
         return "Movimiento Dinero{" +
