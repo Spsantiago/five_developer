@@ -35,4 +35,11 @@ public class MovimientosDienro {
     public void setUsuario(String usuario) {
         Usuario = usuario;
     }
+    @Override
+    public String toString() {
+        return  '{'"Usuario='" + Usuario + '\'' +
+                ", Concepto='" + Concepto + '\'' +
+                ", Usuario=" + Usuario +
+                '}';
+    }
 }
