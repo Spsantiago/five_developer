@@ -6,7 +6,9 @@ public class IngresosYGastos {
 
     public static void main(String[] args) {
         
-       empresa empresa = new empresa();
+       empresa empresa1 = new empresa("Grupo Bysa S.A.S", "Cra 1 # 1-115", "6027735505", "901518345-2");
+       
+        System.out.println(empresa1);
        
        
     }
