@@ -3,19 +3,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.modeladodeempleado;
+package com.udea.ingresosygastos;
 
 /**
  *
  * @author hewlett-packard
  */
-public class Empleado {
+public class empleado {
     private String nombre;
     private String Apellido;
     private String Correo;
     private String Empresa;
 
-    public Empleado(String nombre, String Apellido, String Correo, String Empresa) {
+    public empleado(String nombre, String Apellido, String Correo, String Empresa) {
         this.nombre = nombre;
         this.Apellido = Apellido;
         this.Correo = Correo;
