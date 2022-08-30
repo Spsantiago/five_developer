@@ -1,17 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
 
 package com.udea.ingresosygastos;
 
-/**
- *
- * @author voyag
- */
+
 public class IngresosYGastos {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+             
+        empresa emp = new empresa("Grupo Bysa S.A.S", "Cra 1 # 1-115 panamericana", "6027735505", "901518345-2");
+        movimientodedinero movimiento = new movimientodedinero(10500, "gasto", "eamejia");
+        
+        System.out.println(emp.toString());
+        System.out.println(movimiento.toString());               
+       
     }
 }
