@@ -3,20 +3,18 @@ package com.udea.ingresosygastos;
 
 
 public class empresa {
-
+    
     private String nombre;
     private String direccion;
-    private long Telefono;
-    private long NIT;
-
-    public empresa(){
-
-    }
-    public empresa(String nombre, String direccion, long telefono, long NIT) {
+    private String telefono;
+    private String nit;
+    
+       
+    public empresa(String nombre, String direccion, String telefono, String nit) {
         this.nombre = nombre;
         this.direccion = direccion;
-        Telefono = telefono;
-        this.NIT = NIT;
+        this.telefono = telefono;
+        this.nit = nit;
     }
 
     public String getNombre() {
@@ -35,30 +33,31 @@ public class empresa {
         this.direccion = direccion;
     }
 
-
-    public long getTelefono() {
-        return Telefono;
+    public String getTelefono() {
+        return telefono;
     }
 
-    public void setTelefono(long telefono) {
-        Telefono = telefono;
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
     }
 
-    public long getNIT() {
-        return NIT;
+    public String getNit() {
+        return nit;
     }
 
-    public void setNIT(long NIT) {
-        this.NIT = NIT;
+    public void setNit(String nit) {
+        this.nit = nit;
     }
-
+    
+    
+    
     @Override
     public String toString() {
-        return "empresa{" +
-                "nombre='" + nombre + '\'' +
-                ", direccion='" + direccion + '\'' +
-                ", Telefono=" + Telefono +
-                ", NIT=" + NIT +
+        return "Empresa{" +
+                "Nombre='" + nombre + '\'' +
+                ", Direccion='" + direccion + '\'' +
+                ", Telefono=" + telefono +
+                ", Nit=" + nit +
                 '}';
     }
 }
