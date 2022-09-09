@@ -6,10 +6,10 @@ public class IngresosYGastos {
 
     public static void main(String[] args) {
              
-        empresa emp = new empresa("Grupo Bysa S.A.S", "Cra 1 # 1-115 panamericana", "6027735505", "901518345-2");
+        empresa empresa = new empresa("Grupo Bysa S.A.S", "Cra 1 # 1-115 panamericana", "6027735505", "901518345-2");
         movimientodedinero movimiento = new movimientodedinero(10500, "gasto", "eamejia");
-        empleado empleado = new empleado("juan", "perez", "juanperez@gmai.com","Grupo Bysa S.A.S");
-        System.out.println(emp.toString());
+        empleado empleado = new empleado("hola","hola","hola",empresa);
+        System.out.println(empresa.toString());
         System.out.println(movimiento.toString());               
         System.out.println(empleado.toString());
     }
