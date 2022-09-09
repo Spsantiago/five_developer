@@ -1,21 +1,14 @@
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.udea.ingresosygastos;
 
-/**
- *
- * @author hewlett-packard
- */
+
 public class empleado {
     private String nombre;
     private String Apellido;
     private String Correo;
-    private String Empresa;
+    private empresa Empresa;
 
-    public empleado(String nombre, String Apellido, String Correo, String Empresa) {
+    public empleado(String nombre, String Apellido, String Correo, empresa Empresa) {
         this.nombre = nombre;
         this.Apellido = Apellido;
         this.Correo = Correo;
@@ -46,11 +39,11 @@ public class empleado {
         this.Correo = Correo;
     }
 
-    public String getEmpresa() {
+    public empresa getEmpresa() {
         return Empresa;
     }
 
-    public void setEmpresa(String Empresa) {
+    public void setEmpresa(empresa Empresa) {
         this.Empresa = Empresa;
     }
 
