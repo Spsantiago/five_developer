@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b436691c-bd62-4c31-9397-ac9be4970bd0" name="Changes" comment="" />
+    <list default="true" id="b436691c-bd62-4c31-9397-ac9be4970bd0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/IngresosYGastos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IngresosYGastos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IngresosYGastos/src/main/java/com/udea/ingresosygastos/IngresosYGastos.java" beforeDir="false" afterPath="$PROJECT_DIR$/IngresosYGastos/src/main/java/com/udea/ingresosygastos/IngresosYGastos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IngresosYGastos/src/main/java/com/udea/ingresosygastos/empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/IngresosYGastos/src/main/java/com/udea/ingresosygastos/empleado.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +25,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/voyag/OneDrive/Documentos/GitHub/five_developer",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
