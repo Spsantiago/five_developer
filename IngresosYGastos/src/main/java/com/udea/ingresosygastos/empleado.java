@@ -1,25 +1,19 @@
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.udea.ingresosygastos;
 
-/**
- *
- * @author hewlett-packard
- */
+
 public class empleado {
     private String nombre;
-    private String Apellido;
-    private String Correo;
-    private String Empresa;
+    private String apellido;
+    private String correo;
+    private empresa empresa;
 
-    public empleado(String nombre, String Apellido, String Correo, String Empresa) {
+    public empleado(String nombre, String apellido, String correo, empresa empresa) {
         this.nombre = nombre;
-        this.Apellido = Apellido;
-        this.Correo = Correo;
-        this.Empresa = Empresa;
+        this.apellido = apellido;
+        this.correo = correo;
+        this.empresa = empresa;
     }
 
     public String getNombre() {
@@ -31,32 +25,32 @@ public class empleado {
     }
 
     public String getApellido() {
-        return Apellido;
+        return apellido;
     }
 
     public void setApellido(String Apellido) {
-        this.Apellido = Apellido;
+        this.apellido = Apellido;
     }
 
     public String getCorreo() {
-        return Correo;
+        return correo;
     }
 
     public void setCorreo(String Correo) {
-        this.Correo = Correo;
+        this.correo = Correo;
     }
 
-    public String getEmpresa() {
-        return Empresa;
+    public empresa getEmpresa() {
+        return empresa;
     }
 
-    public void setEmpresa(String Empresa) {
-        this.Empresa = Empresa;
+    public void setEmpresa(empresa Empresa) {
+        this.empresa = Empresa;
     }
 
     @Override
     public String toString() {
-        return "Empleado{" + "nombre=" + nombre + ", Apellido=" + Apellido + ", Correo=" + Correo + ", Empresa=" + Empresa + '}';
+        return "Empleado{" + "nombre=" + nombre + ", Apellido=" + apellido + ", Correo=" + correo + ", Empresa=" + empresa + '}';
     }
 
 }

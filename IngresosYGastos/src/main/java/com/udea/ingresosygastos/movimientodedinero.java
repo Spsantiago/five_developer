@@ -4,9 +4,9 @@ package com.udea.ingresosygastos;
 public class movimientodedinero {
     private long monto;
     private String concepto;
-    private String usuario;
+    private empleado usuario;
 
-    public movimientodedinero(long monto, String concepto, String usuario) {
+    public movimientodedinero(long monto, String concepto, empleado usuario) {
         this.monto = monto;
         this.concepto = concepto;
         this.usuario = usuario;
@@ -28,11 +28,11 @@ public class movimientodedinero {
         this.concepto = concepto;
     }
 
-    public String getUsuario() {
+    public empleado getUsuario() {
         return usuario;
     }
 
-    public void setUsuario(String usuario) {
+    public void setUsuario(empleado usuario) {
         this.usuario = usuario;
     }
 
