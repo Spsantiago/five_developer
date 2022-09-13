@@ -1,0 +1,8 @@
+com\udea\ingresosygastos\movimeintodinero.class
+com\udea\ingresosygastos\controlador.class
+com\udea\ingresosygastos\empleado.class
+com\udea\ingresosygastos\IngresosygastosApplication.class
+com\udea\ingresosygastos\empleadoService.class
+com\udea\ingresosygastos\empleadoServiceImp.class
+com\udea\ingresosygastos\empresa.class
+com\udea\ingresosygastos\empleadoRepositor.class
