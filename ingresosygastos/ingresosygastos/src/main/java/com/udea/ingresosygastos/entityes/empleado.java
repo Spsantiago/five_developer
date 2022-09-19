@@ -17,6 +17,9 @@ public class empleado {
     @Column
     private empresa empresa;
 
+    public empleado() {
+    }
+
     public empleado(String correo, String nombre, String apellido, empresa empresa) {
         this.correo = correo;
         this.nombre = nombre;
