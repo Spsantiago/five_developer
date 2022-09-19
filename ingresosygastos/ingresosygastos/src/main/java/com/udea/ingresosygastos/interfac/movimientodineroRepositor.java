@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface movimientodineroRepositor extends Repository<movimientodinero, Integer> {
     List<movimientodinero> finAll();
-    movimientodinero findOne(String NIT);
-    movimientodinero save (movimientodinero empr);
-    void delete (movimientodinero empr);
+    movimientodinero findOne(String concepto);
+    movimientodinero save (movimientodinero movimientodinero);
+    void delete (movimientodinero movimientodinero);
 }
