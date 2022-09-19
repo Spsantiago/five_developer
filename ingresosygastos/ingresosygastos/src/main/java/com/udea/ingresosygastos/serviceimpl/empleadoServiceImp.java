@@ -21,22 +21,27 @@ public class empleadoServiceImp implements empleadoService {
 
     @Override
     public empleado listarcorreo(String correo) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+      return repositorio.findOne(correo);
     }
 
     @Override
     public empleado add(empleado empl) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+
+        return repositorio.save(empl);
     }
 
     @Override
     public empleado edit(empleado empl) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return repositorio.save(empl);
     }
 
     @Override
     public empleado delete(String correo) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        empleado empl = repositorio.findOne(correo);
+        if (empl!=null ){
+            repositorio.delete(empl);
+        }
+        return empl;
     }
     
 }
