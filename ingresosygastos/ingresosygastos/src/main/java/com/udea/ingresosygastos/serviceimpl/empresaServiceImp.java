@@ -17,22 +17,26 @@ public class empresaServiceImp implements empresaService {
     }
 
     @Override
-    public empresa listarcorreo(String NIT) {
+    public empresa listarNIT(String NIT) {
         return null;
     }
 
     @Override
     public empresa add(empresa empr) {
-        return null;
+        return repositorio.save(empr);
     }
 
     @Override
     public empresa edit(empresa empr) {
-        return null;
+        return repositorio.save(empr);
     }
 
     @Override
     public empresa delete(String NIT) {
-        return null;
+        empresa empr= repositorio.findOne(NIT);
+        if (empr != null ){
+            repositorio.delete(empr);
+        }
+        return empr;
     }
 }
