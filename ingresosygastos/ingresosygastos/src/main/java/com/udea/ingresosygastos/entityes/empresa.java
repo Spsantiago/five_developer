@@ -16,6 +16,9 @@ public class empresa {
     @Column
     private String telefono;
 
+    public empresa() {
+    }
+
     public empresa(String NIT, String nombre, String direccion, String telefono) {
         this.NIT = NIT;
         this.nombre = nombre;
