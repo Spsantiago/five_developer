@@ -21,7 +21,7 @@ public class controladorempleado {
         return Service.listar();
     }
     @PostMapping
-    public empleado agregar (@RequestBody empleado empl){
+    public empleado add (@RequestBody empleado empl){
         return Service.add(empl);
     }
     @GetMapping (path = {"/{correo}"})
