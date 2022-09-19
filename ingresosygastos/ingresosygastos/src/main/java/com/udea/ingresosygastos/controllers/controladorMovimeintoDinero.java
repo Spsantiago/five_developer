@@ -17,7 +17,7 @@ public class controladorMovimeintoDinero {
     @GetMapping
     public List<movimientodinero>listar(){return Service.listar();}
     @PostMapping
-    public movimientodinero agregar (@RequestBody movimientodinero mov ){
+    public movimientodinero add (@RequestBody movimientodinero mov ){
         return Service.add(mov);
     }
     @GetMapping(path = {"/concepto"})
