@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f78c58-e36d-4e0a-91b6-5fdd8253e047" name="Changes" comment="" />
+    <list default="true" id="a0f78c58-e36d-4e0a-91b6-5fdd8253e047" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/controllers/controladorMovimeintoDinero.java" beforeDir="false" afterPath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/controllers/controladorMovimeintoDinero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/controllers/controladorempleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/controllers/controladorempleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/entityes/empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/entityes/empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/entityes/empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/entityes/empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/entityes/movimientodinero.java" beforeDir="false" afterPath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/entityes/movimientodinero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/interfac/movimientodineroRepositor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/interfac/movimientodineroRepositor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/interfac/movimientodineroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/interfac/movimientodineroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/serviceimpl/empleadoServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/serviceimpl/empleadoServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/serviceimpl/movimeintodineroServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ingresosygastos/src/main/java/com/udea/ingresosygastos/serviceimpl/movimeintodineroServiceImp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +29,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -29,18 +59,19 @@
     </option>
   </component>
   <component name="ProjectId" id="2Ed5p8FiamhwwFWa52sVABRE4PX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/voyag/OneDrive/Escritorio/java/ingresosygastos/ingresosygastos/src/main/java/com/udea/ingresosygastos/interface",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/voyag/OneDrive/Escritorio/java/ingresosygastos/ingresosygastos/src/main/java/com/udea/ingresosygastos/interface&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\voyag\OneDrive\Escritorio\java\ingresosygastos\ingresosygastos\src\main\java\com\udea\ingresosygastos\interface" />
