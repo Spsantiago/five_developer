@@ -15,6 +15,9 @@ public class movimientodinero {
     @Column
     private empleado usuario;
 
+    public movimientodinero() {
+    }
+
     public movimientodinero(long monto, String concepto, empleado usuario) {
         this.monto = monto;
         this.concepto = concepto;
